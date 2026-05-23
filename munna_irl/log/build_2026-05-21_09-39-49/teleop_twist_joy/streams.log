@@ -1,0 +1,5 @@
+[0.615s] Invoking command in '/home/fairytale/ros2_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble /usr/bin/cmake --build /home/fairytale/ros2_ws/build/teleop_twist_joy -- -j16 -l16
+[0.643s] [35m[1mConsolidate compiler generated dependencies of target teleop_twist_joy[0m
+[0.657s] [ 50%] Built target teleop_twist_joy
+[0.666s] [35m[1mConsolidate compiler generated dependencies of target teleop_twist_joy_node[0m
+[0.680s] [100%] Built target teleop_twist_joy_node

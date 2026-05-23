@@ -1,0 +1,73 @@
+[0.171s] Invoking command in '/home/fairytale/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble /usr/bin/cmake /home/fairytale/ros2_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/fairytale/ros2_ws/install/micro_ros_agent
+[1.311s] -- The C compiler identification is GNU 11.4.0
+[1.349s] -- Detecting C compiler ABI info
+[1.646s] -- Detecting C compiler ABI info - done
+[1.650s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.680s] -- Detecting C compile features
+[1.682s] -- Detecting C compile features - done
+[2.151s] -- The CXX compiler identification is GNU 11.4.0
+[2.159s] -- Detecting CXX compiler ABI info
+[2.240s] -- Detecting CXX compiler ABI info - done
+[2.246s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.246s] -- Detecting CXX compile features
+[2.246s] -- Detecting CXX compile features - done
+[2.275s] -- Configuring done
+[2.277s] -- Generating done
+[2.278s] -- Build files have been written to: /home/fairytale/ros2_ws/build/micro_ros_agent
+[2.280s] Invoked command in '/home/fairytale/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble /usr/bin/cmake /home/fairytale/ros2_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/fairytale/ros2_ws/install/micro_ros_agent
+[2.282s] Invoking command in '/home/fairytale/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble /usr/bin/cmake --build /home/fairytale/ros2_ws/build/micro_ros_agent -- -j16 -l16
+[2.324s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[2.410s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[2.433s] Cloning into 'xrceagent'...
+[4.127s] HEAD is now at 155cfaa Release v3.0.1
+[4.200s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[4.224s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[4.246s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[4.252s] loading initial cache file /home/fairytale/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[4.288s] -- The C compiler identification is GNU 11.4.0
+[4.293s] -- Detecting C compiler ABI info
+[4.349s] -- Detecting C compiler ABI info - done
+[4.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.356s] -- Detecting C compile features
+[4.356s] -- Detecting C compile features - done
+[4.393s] -- The CXX compiler identification is GNU 11.4.0
+[4.397s] -- Detecting CXX compiler ABI info
+[4.457s] -- Detecting CXX compiler ABI info - done
+[4.462s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.463s] -- Detecting CXX compile features
+[4.463s] -- Detecting CXX compile features - done
+[4.465s] -- Looking for pthread.h
+[4.518s] -- Looking for pthread.h - found
+[4.518s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.579s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.580s] -- Found Threads: TRUE  
+[4.586s] -- Configuring done
+[4.587s] -- Generating done
+[4.587s] -- Build files have been written to: /home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[4.604s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[4.634s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[4.685s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[4.704s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[4.722s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[4.742s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[4.750s] loading initial cache file /home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[4.753s] -- Setting build type to 'Release' as none was specified.
+[4.759s] [31mCMake Error at CMakeLists.txt:153 (find_package):
+[4.759s]   Could not find a configuration file for package "fastcdr" that is
+[4.759s]   compatible with requested version "2".
+[4.759s] 
+[4.760s]   The following configuration files were considered but not accepted:
+[4.760s] 
+[4.760s]     /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.29
+[4.760s] 
+[4.760s] 
+[4.760s] [0m
+[4.760s] -- Configuring incomplete, errors occurred!
+[4.760s] See also "/home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/CMakeOutput.log".
+[4.760s] gmake[5]: *** [CMakeFiles/uagent.dir/build.make:93: uagent-prefix/src/uagent-stamp/uagent-configure] Error 1
+[4.761s] gmake[4]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Error 2
+[4.761s] gmake[3]: *** [Makefile:91: all] Error 2
+[4.761s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86: agent/src/xrceagent-stamp/xrceagent-build] Error 2
+[4.762s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[4.762s] gmake: *** [Makefile:91: all] Error 2
+[4.764s] Invoked command in '/home/fairytale/ros2_ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble /usr/bin/cmake --build /home/fairytale/ros2_ws/build/micro_ros_agent -- -j16 -l16

@@ -1,0 +1,12 @@
+source;share/munna_robot/hook/path.ps1
+source;share/munna_robot/hook/path.dsv
+source;share/munna_robot/hook/path.sh
+source;share/munna_robot/hook/pythonpath.ps1
+source;share/munna_robot/hook/pythonpath.dsv
+source;share/munna_robot/hook/pythonpath.sh
+source;share/munna_robot/hook/pythonscriptspath.ps1
+source;share/munna_robot/hook/pythonscriptspath.dsv
+source;share/munna_robot/hook/pythonscriptspath.sh
+source;share/munna_robot/hook/ament_prefix_path.ps1
+source;share/munna_robot/hook/ament_prefix_path.dsv
+source;share/munna_robot/hook/ament_prefix_path.sh

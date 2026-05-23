@@ -1,0 +1,474 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (learning_tf2) JobQueued: {'identifier': 'learning_tf2', 'dependencies': OrderedDict()}
+[0.000198] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict()}
+[0.000243] (minisumo_robot) JobQueued: {'identifier': 'minisumo_robot', 'dependencies': OrderedDict()}
+[0.000280] (munna_robot) JobQueued: {'identifier': 'munna_robot', 'dependencies': OrderedDict()}
+[0.000349] (munna_teleop) JobQueued: {'identifier': 'munna_teleop', 'dependencies': OrderedDict()}
+[0.000369] (teleop_twist_joy) JobQueued: {'identifier': 'teleop_twist_joy', 'dependencies': OrderedDict()}
+[0.000401] (learning_tf2) JobStarted: {'identifier': 'learning_tf2'}
+[0.021032] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.023359] (minisumo_robot) JobStarted: {'identifier': 'minisumo_robot'}
+[0.026135] (munna_robot) JobStarted: {'identifier': 'munna_robot'}
+[0.028901] (munna_teleop) JobStarted: {'identifier': 'munna_teleop'}
+[0.031654] (teleop_twist_joy) JobStarted: {'identifier': 'teleop_twist_joy'}
+[0.099480] (-) TimerEvent: {}
+[0.189525] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[0.189652] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/fairytale/ros2_ws/src/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/fairytale/ros2_ws/install/micro_ros_agent'], 'cwd': '/home/fairytale/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fairytale'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fairytale'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1729'), ('SYSTEMD_EXEC_PID', '2342'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9181'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fairytale/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fairytale'), ('JOURNAL_STREAM', '8:11815'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fairytale'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fairytale/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fairytale-fx507zc4:@/tmp/.ICE-unix/2312,unix/fairytale-fx507zc4:/tmp/.ICE-unix/2312'), ('INVOCATION_ID', 'd8efc12550a24977a415cf331d19cc67'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JYPBP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:35f4718d-acab-4c0c-aca4-900dea069d55'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fairytale/ros2_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble')]), 'shell': False}
+[0.199673] (-) TimerEvent: {}
+[0.299949] (-) TimerEvent: {}
+[0.400248] (-) TimerEvent: {}
+[0.500566] (-) TimerEvent: {}
+[0.600991] (-) TimerEvent: {}
+[0.673330] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'cmake'}
+[0.673837] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '/home/fairytale/ros2_ws/src/teleop_twist_joy', '-DCMAKE_INSTALL_PREFIX=/home/fairytale/ros2_ws/install/teleop_twist_joy'], 'cwd': '/home/fairytale/ros2_ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fairytale'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fairytale'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1729'), ('SYSTEMD_EXEC_PID', '2342'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9181'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fairytale/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fairytale'), ('JOURNAL_STREAM', '8:11815'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fairytale'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fairytale/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fairytale-fx507zc4:@/tmp/.ICE-unix/2312,unix/fairytale-fx507zc4:/tmp/.ICE-unix/2312'), ('INVOCATION_ID', 'd8efc12550a24977a415cf331d19cc67'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JYPBP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:35f4718d-acab-4c0c-aca4-900dea069d55'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fairytale/ros2_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble')]), 'shell': False}
+[0.701064] (-) TimerEvent: {}
+[0.801382] (-) TimerEvent: {}
+[0.901747] (-) TimerEvent: {}
+[1.002321] (-) TimerEvent: {}
+[1.102845] (-) TimerEvent: {}
+[1.203634] (-) TimerEvent: {}
+[1.304335] (-) TimerEvent: {}
+[1.332420] (teleop_twist_joy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.332813] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.370335] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.404468] (-) TimerEvent: {}
+[1.505152] (-) TimerEvent: {}
+[1.605707] (-) TimerEvent: {}
+[1.667145] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.671340] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.700925] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.703794] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.705896] (-) TimerEvent: {}
+[1.806332] (-) TimerEvent: {}
+[1.906833] (-) TimerEvent: {}
+[2.007318] (-) TimerEvent: {}
+[2.107773] (-) TimerEvent: {}
+[2.169633] (teleop_twist_joy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.172275] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.176560] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.180119] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.207905] (-) TimerEvent: {}
+[2.233255] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.238158] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.238323] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.238545] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.240426] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.261774] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.267486] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.267645] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.267936] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.296545] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.298334] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[2.298992] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/fairytale/ros2_ws/build/micro_ros_agent\n'}
+[2.300222] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.301683] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[2.302194] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[2.302798] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fairytale/ros2_ws/build/micro_ros_agent', '--', '-j16', '-l16'], 'cwd': '/home/fairytale/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fairytale'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fairytale'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1729'), ('SYSTEMD_EXEC_PID', '2342'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9181'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fairytale/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fairytale'), ('JOURNAL_STREAM', '8:11815'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fairytale'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fairytale/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fairytale-fx507zc4:@/tmp/.ICE-unix/2312,unix/fairytale-fx507zc4:/tmp/.ICE-unix/2312'), ('INVOCATION_ID', 'd8efc12550a24977a415cf331d19cc67'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JYPBP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:35f4718d-acab-4c0c-aca4-900dea069d55'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fairytale/ros2_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble')]), 'shell': False}
+[2.307985] (-) TimerEvent: {}
+[2.308254] (teleop_twist_joy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.308550] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.309418] (teleop_twist_joy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.313063] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.345182] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[2.408174] (-) TimerEvent: {}
+[2.428246] (munna_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/munna_robot', 'build', '--build-base', '/home/fairytale/ros2_ws/build/munna_robot/build', 'install', '--record', '/home/fairytale/ros2_ws/build/munna_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fairytale/ros2_ws/src/Relleno/munna_robot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fairytale', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/fairytale', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'MANAGERPID': '1729', 'SYSTEMD_EXEC_PID': '2342', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9181', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fairytale/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fairytale', 'JOURNAL_STREAM': '8:11815', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fairytale', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/fairytale/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fairytale-fx507zc4:@/tmp/.ICE-unix/2312,unix/fairytale-fx507zc4:/tmp/.ICE-unix/2312', 'INVOCATION_ID': 'd8efc12550a24977a415cf331d19cc67', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JYPBP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:35f4718d-acab-4c0c-aca4-900dea069d55', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fairytale/ros2_ws/build/munna_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fairytale/ros2_ws/build/munna_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages:/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.431104] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[2.431536] (learning_tf2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/learning_tf2', 'build', '--build-base', '/home/fairytale/ros2_ws/build/learning_tf2/build', 'install', '--record', '/home/fairytale/ros2_ws/build/learning_tf2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fairytale/ros2_ws/src/Relleno/learning_tf2', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fairytale', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/fairytale', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'MANAGERPID': '1729', 'SYSTEMD_EXEC_PID': '2342', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9181', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fairytale/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fairytale', 'JOURNAL_STREAM': '8:11815', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fairytale', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/fairytale/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fairytale-fx507zc4:@/tmp/.ICE-unix/2312,unix/fairytale-fx507zc4:/tmp/.ICE-unix/2312', 'INVOCATION_ID': 'd8efc12550a24977a415cf331d19cc67', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JYPBP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:35f4718d-acab-4c0c-aca4-900dea069d55', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fairytale/ros2_ws/build/learning_tf2', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fairytale/ros2_ws/build/learning_tf2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages:/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.434275] (munna_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/munna_teleop', 'build', '--build-base', '/home/fairytale/ros2_ws/build/munna_teleop/build', 'install', '--record', '/home/fairytale/ros2_ws/build/munna_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fairytale/ros2_ws/src/munna_teleop', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fairytale', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/fairytale', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'MANAGERPID': '1729', 'SYSTEMD_EXEC_PID': '2342', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9181', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fairytale/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fairytale', 'JOURNAL_STREAM': '8:11815', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fairytale', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/fairytale/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fairytale-fx507zc4:@/tmp/.ICE-unix/2312,unix/fairytale-fx507zc4:/tmp/.ICE-unix/2312', 'INVOCATION_ID': 'd8efc12550a24977a415cf331d19cc67', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JYPBP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:35f4718d-acab-4c0c-aca4-900dea069d55', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fairytale/ros2_ws/build/munna_teleop', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fairytale/ros2_ws/build/munna_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.437325] (minisumo_robot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/minisumo_robot', 'build', '--build-base', '/home/fairytale/ros2_ws/build/minisumo_robot/build', 'install', '--record', '/home/fairytale/ros2_ws/build/minisumo_robot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fairytale/ros2_ws/src/Relleno/minisumo_robot', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'fairytale', 'LC_TIME': 'es_CO.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/fairytale', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_CO.UTF-8', 'MANAGERPID': '1729', 'SYSTEMD_EXEC_PID': '2342', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9181', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/fairytale/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fairytale', 'JOURNAL_STREAM': '8:11815', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'fairytale', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/fairytale/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/fairytale-fx507zc4:@/tmp/.ICE-unix/2312,unix/fairytale-fx507zc4:/tmp/.ICE-unix/2312', 'INVOCATION_ID': 'd8efc12550a24977a415cf331d19cc67', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_CO.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'es_CO.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JYPBP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_CO.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:35f4718d-acab-4c0c-aca4-900dea069d55', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_CO.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'es_CO.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/fairytale/ros2_ws/build/minisumo_robot', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fairytale/ros2_ws/build/minisumo_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages:/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_CO.UTF-8', 'LC_PAPER': 'es_CO.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.454646] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[2.479605] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.508325] (-) TimerEvent: {}
+[2.588696] (learning_tf2) StdoutLine: {'line': b'running egg_info\n'}
+[2.589095] (learning_tf2) StdoutLine: {'line': b'creating ../../../build/learning_tf2/learning_tf2.egg-info\n'}
+[2.589398] (learning_tf2) StdoutLine: {'line': b'writing ../../../build/learning_tf2/learning_tf2.egg-info/PKG-INFO\n'}
+[2.589555] (learning_tf2) StdoutLine: {'line': b'writing dependency_links to ../../../build/learning_tf2/learning_tf2.egg-info/dependency_links.txt\n'}
+[2.589640] (learning_tf2) StdoutLine: {'line': b'writing entry points to ../../../build/learning_tf2/learning_tf2.egg-info/entry_points.txt\n'}
+[2.589716] (learning_tf2) StdoutLine: {'line': b'writing requirements to ../../../build/learning_tf2/learning_tf2.egg-info/requires.txt\n'}
+[2.589790] (learning_tf2) StdoutLine: {'line': b'writing top-level names to ../../../build/learning_tf2/learning_tf2.egg-info/top_level.txt\n'}
+[2.589911] (learning_tf2) StdoutLine: {'line': b"writing manifest file '../../../build/learning_tf2/learning_tf2.egg-info/SOURCES.txt'\n"}
+[2.590860] (learning_tf2) StdoutLine: {'line': b"reading manifest file '../../../build/learning_tf2/learning_tf2.egg-info/SOURCES.txt'\n"}
+[2.591268] (learning_tf2) StdoutLine: {'line': b"writing manifest file '../../../build/learning_tf2/learning_tf2.egg-info/SOURCES.txt'\n"}
+[2.591521] (learning_tf2) StdoutLine: {'line': b'running build\n'}
+[2.591606] (learning_tf2) StdoutLine: {'line': b'running build_py\n'}
+[2.591677] (learning_tf2) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/build/learning_tf2/build\n'}
+[2.591745] (learning_tf2) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/build/learning_tf2/build/lib\n'}
+[2.591813] (learning_tf2) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2\n'}
+[2.591879] (learning_tf2) StdoutLine: {'line': b'copying learning_tf2/turtle_tf2_listener.py -> /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2\n'}
+[2.594915] (learning_tf2) StdoutLine: {'line': b'copying learning_tf2/__init__.py -> /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2\n'}
+[2.595143] (learning_tf2) StdoutLine: {'line': b'copying learning_tf2/turtle_tf2_broadcaster.py -> /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2\n'}
+[2.595227] (minisumo_robot) StdoutLine: {'line': b'running egg_info\n'}
+[2.596254] (learning_tf2) StdoutLine: {'line': b'running install\n'}
+[2.596503] (minisumo_robot) StdoutLine: {'line': b'creating ../../../build/minisumo_robot/minisumo_robot.egg-info\n'}
+[2.596638] (minisumo_robot) StdoutLine: {'line': b'writing ../../../build/minisumo_robot/minisumo_robot.egg-info/PKG-INFO\n'}
+[2.596720] (learning_tf2) StdoutLine: {'line': b'running install_lib\n'}
+[2.596860] (minisumo_robot) StdoutLine: {'line': b'writing dependency_links to ../../../build/minisumo_robot/minisumo_robot.egg-info/dependency_links.txt\n'}
+[2.596933] (minisumo_robot) StdoutLine: {'line': b'writing entry points to ../../../build/minisumo_robot/minisumo_robot.egg-info/entry_points.txt\n'}
+[2.597010] (minisumo_robot) StdoutLine: {'line': b'writing requirements to ../../../build/minisumo_robot/minisumo_robot.egg-info/requires.txt\n'}
+[2.597080] (minisumo_robot) StdoutLine: {'line': b'writing top-level names to ../../../build/minisumo_robot/minisumo_robot.egg-info/top_level.txt\n'}
+[2.597146] (minisumo_robot) StdoutLine: {'line': b"writing manifest file '../../../build/minisumo_robot/minisumo_robot.egg-info/SOURCES.txt'\n"}
+[2.597494] (learning_tf2) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2\n'}
+[2.597604] (learning_tf2) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2/turtle_tf2_listener.py -> /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2\n'}
+[2.597719] (learning_tf2) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2/__init__.py -> /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2\n'}
+[2.597793] (learning_tf2) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2/turtle_tf2_broadcaster.py -> /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2\n'}
+[2.597925] (minisumo_robot) StdoutLine: {'line': b"reading manifest file '../../../build/minisumo_robot/minisumo_robot.egg-info/SOURCES.txt'\n"}
+[2.598194] (learning_tf2) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc\n'}
+[2.598450] (minisumo_robot) StdoutLine: {'line': b"writing manifest file '../../../build/minisumo_robot/minisumo_robot.egg-info/SOURCES.txt'\n"}
+[2.598522] (minisumo_robot) StdoutLine: {'line': b'running build\n'}
+[2.598587] (minisumo_robot) StdoutLine: {'line': b'running build_py\n'}
+[2.598706] (minisumo_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/build/minisumo_robot/build\n'}
+[2.598779] (minisumo_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/build/minisumo_robot/build/lib\n'}
+[2.598882] (minisumo_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot\n'}
+[2.598954] (minisumo_robot) StdoutLine: {'line': b'copying minisumo_robot/autonomous_node.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot\n'}
+[2.599110] (learning_tf2) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2/__init__.py to __init__.cpython-310.pyc\n'}
+[2.599190] (learning_tf2) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc\n'}
+[2.599889] (minisumo_robot) StdoutLine: {'line': b'copying minisumo_robot/motor_driver.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot\n'}
+[2.600059] (learning_tf2) StdoutLine: {'line': b'running install_data\n'}
+[2.600191] (learning_tf2) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/learning_tf2/share/ament_index\n'}
+[2.600278] (learning_tf2) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/learning_tf2/share/ament_index/resource_index\n'}
+[2.600360] (learning_tf2) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/learning_tf2/share/ament_index/resource_index/packages\n'}
+[2.600540] (learning_tf2) StdoutLine: {'line': b'copying resource/learning_tf2 -> /home/fairytale/ros2_ws/install/learning_tf2/share/ament_index/resource_index/packages\n'}
+[2.600653] (learning_tf2) StdoutLine: {'line': b'copying package.xml -> /home/fairytale/ros2_ws/install/learning_tf2/share/learning_tf2\n'}
+[2.600726] (learning_tf2) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.600976] (minisumo_robot) StdoutLine: {'line': b'copying minisumo_robot/__init__.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot\n'}
+[2.601168] (minisumo_robot) StdoutLine: {'line': b'copying minisumo_robot/mode_manager.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot\n'}
+[2.602717] (learning_tf2) StdoutLine: {'line': b'Copying ../../../build/learning_tf2/learning_tf2.egg-info to /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2-0.0.0-py3.10.egg-info\n'}
+[2.602901] (munna_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[2.603413] (munna_teleop) StdoutLine: {'line': b'writing ../../build/munna_teleop/munna_teleop.egg-info/PKG-INFO\n'}
+[2.603557] (munna_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/munna_teleop/munna_teleop.egg-info/dependency_links.txt\n'}
+[2.603701] (learning_tf2) StdoutLine: {'line': b'running install_scripts\n'}
+[2.603781] (munna_teleop) StdoutLine: {'line': b'writing entry points to ../../build/munna_teleop/munna_teleop.egg-info/entry_points.txt\n'}
+[2.603850] (munna_teleop) StdoutLine: {'line': b'writing requirements to ../../build/munna_teleop/munna_teleop.egg-info/requires.txt\n'}
+[2.603917] (munna_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/munna_teleop/munna_teleop.egg-info/top_level.txt\n'}
+[2.604860] (munna_teleop) StdoutLine: {'line': b"reading manifest file '../../build/munna_teleop/munna_teleop.egg-info/SOURCES.txt'\n"}
+[2.608542] (minisumo_robot) StdoutLine: {'line': b'copying minisumo_robot/sensor_node.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot\n'}
+[2.608686] (-) TimerEvent: {}
+[2.612495] (munna_teleop) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.612938] (munna_teleop) StdoutLine: {'line': b"writing manifest file '../../build/munna_teleop/munna_teleop.egg-info/SOURCES.txt'\n"}
+[2.613120] (munna_teleop) StdoutLine: {'line': b'running build\n'}
+[2.613206] (munna_teleop) StdoutLine: {'line': b'running build_py\n'}
+[2.613299] (munna_teleop) StdoutLine: {'line': b'copying munna_teleop/teleop_node.py -> /home/fairytale/ros2_ws/build/munna_teleop/build/lib/munna_teleop\n'}
+[2.613392] (munna_teleop) StdoutLine: {'line': b'running install\n'}
+[2.613576] (munna_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[2.614282] (munna_teleop) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/munna_teleop/build/lib/munna_teleop/teleop_node.py -> /home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages/munna_teleop\n'}
+[2.614673] (munna_teleop) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages/munna_teleop/teleop_node.py to teleop_node.cpython-310.pyc\n'}
+[2.615592] (munna_teleop) StdoutLine: {'line': b'running install_data\n'}
+[2.615680] (munna_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.616837] (munna_teleop) StdoutLine: {'line': b"removing '/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages/munna_teleop-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[2.616947] (munna_teleop) StdoutLine: {'line': b'Copying ../../build/munna_teleop/munna_teleop.egg-info to /home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages/munna_teleop-0.1.0-py3.10.egg-info\n'}
+[2.617274] (minisumo_robot) StdoutLine: {'line': b'copying minisumo_robot/teleop_node.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot\n'}
+[2.619003] (munna_robot) StdoutLine: {'line': b'running egg_info\n'}
+[2.619255] (munna_robot) StdoutLine: {'line': b'creating ../../../build/munna_robot/munna_robot.egg-info\n'}
+[2.619360] (munna_robot) StdoutLine: {'line': b'writing ../../../build/munna_robot/munna_robot.egg-info/PKG-INFO\n'}
+[2.619493] (munna_robot) StdoutLine: {'line': b'writing dependency_links to ../../../build/munna_robot/munna_robot.egg-info/dependency_links.txt\n'}
+[2.619597] (munna_robot) StdoutLine: {'line': b'writing entry points to ../../../build/munna_robot/munna_robot.egg-info/entry_points.txt\n'}
+[2.619709] (munna_robot) StdoutLine: {'line': b'writing requirements to ../../../build/munna_robot/munna_robot.egg-info/requires.txt\n'}
+[2.619776] (munna_robot) StdoutLine: {'line': b'writing top-level names to ../../../build/munna_robot/munna_robot.egg-info/top_level.txt\n'}
+[2.619924] (munna_robot) StdoutLine: {'line': b"writing manifest file '../../../build/munna_robot/munna_robot.egg-info/SOURCES.txt'\n"}
+[2.620782] (munna_robot) StdoutLine: {'line': b"reading manifest file '../../../build/munna_robot/munna_robot.egg-info/SOURCES.txt'\n"}
+[2.621601] (learning_tf2) StdoutLine: {'line': b'Installing turtle_tf2_broadcaster script to /home/fairytale/ros2_ws/install/learning_tf2/lib/learning_tf2\n'}
+[2.621675] (learning_tf2) StdoutLine: {'line': b'Installing turtle_tf2_listener script to /home/fairytale/ros2_ws/install/learning_tf2/lib/learning_tf2\n'}
+[2.621860] (learning_tf2) StdoutLine: {'line': b"writing list of installed files to '/home/fairytale/ros2_ws/build/learning_tf2/install.log'\n"}
+[2.621929] (munna_robot) StdoutLine: {'line': b"writing manifest file '../../../build/munna_robot/munna_robot.egg-info/SOURCES.txt'\n"}
+[2.622038] (munna_robot) StdoutLine: {'line': b'running build\n'}
+[2.622116] (munna_robot) StdoutLine: {'line': b'running build_py\n'}
+[2.622178] (munna_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/build/munna_robot/build\n'}
+[2.622239] (munna_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/build/munna_robot/build/lib\n'}
+[2.622300] (munna_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot\n'}
+[2.622360] (munna_robot) StdoutLine: {'line': b'copying munna_robot/munna_autonomo.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot\n'}
+[2.623269] (munna_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[2.623548] (minisumo_robot) StdoutLine: {'line': b'running install\n'}
+[2.623800] (munna_robot) StdoutLine: {'line': b'copying munna_robot/munna_teleop.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot\n'}
+[2.623925] (minisumo_robot) StdoutLine: {'line': b'running install_lib\n'}
+[2.624500] (minisumo_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot\n'}
+[2.624571] (minisumo_robot) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/autonomous_node.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot\n'}
+[2.624636] (minisumo_robot) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/motor_driver.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot\n'}
+[2.624700] (minisumo_robot) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/__init__.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot\n'}
+[2.624765] (minisumo_robot) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/mode_manager.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot\n'}
+[2.624869] (minisumo_robot) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/sensor_node.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot\n'}
+[2.624936] (minisumo_robot) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/teleop_node.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot\n'}
+[2.625036] (minisumo_robot) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/autonomous_node.py to autonomous_node.cpython-310.pyc\n'}
+[2.625810] (minisumo_robot) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/motor_driver.py to motor_driver.cpython-310.pyc\n'}
+[2.626504] (minisumo_robot) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/__init__.py to __init__.cpython-310.pyc\n'}
+[2.626619] (minisumo_robot) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/mode_manager.py to mode_manager.cpython-310.pyc\n'}
+[2.626991] (minisumo_robot) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/sensor_node.py to sensor_node.cpython-310.pyc\n'}
+[2.627623] (minisumo_robot) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/teleop_node.py to teleop_node.cpython-310.pyc\n'}
+[2.628123] (minisumo_robot) StdoutLine: {'line': b'running install_data\n'}
+[2.628231] (minisumo_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/minisumo_robot/share/ament_index\n'}
+[2.628295] (minisumo_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/minisumo_robot/share/ament_index/resource_index\n'}
+[2.628364] (minisumo_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/minisumo_robot/share/ament_index/resource_index/packages\n'}
+[2.628472] (minisumo_robot) StdoutLine: {'line': b'copying resource/minisumo_robot -> /home/fairytale/ros2_ws/install/minisumo_robot/share/ament_index/resource_index/packages\n'}
+[2.628536] (minisumo_robot) StdoutLine: {'line': b'copying package.xml -> /home/fairytale/ros2_ws/install/minisumo_robot/share/minisumo_robot\n'}
+[2.628597] (minisumo_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/minisumo_robot/share/minisumo_robot/launch\n'}
+[2.628656] (minisumo_robot) StdoutLine: {'line': b'copying launch/minisumo.launch.py -> /home/fairytale/ros2_ws/install/minisumo_robot/share/minisumo_robot/launch\n'}
+[2.628734] (munna_robot) StdoutLine: {'line': b'copying munna_robot/__init__.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot\n'}
+[2.628813] (munna_robot) StdoutLine: {'line': b'copying munna_robot/munna_mode_manager.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot\n'}
+[2.628974] (minisumo_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/minisumo_robot/share/minisumo_robot/config\n'}
+[2.629055] (minisumo_robot) StdoutLine: {'line': b'copying config/minisumo_params.yaml -> /home/fairytale/ros2_ws/install/minisumo_robot/share/minisumo_robot/config\n'}
+[2.630005] (minisumo_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.630128] (munna_robot) StdoutLine: {'line': b'running install\n'}
+[2.630429] (munna_robot) StdoutLine: {'line': b'running install_lib\n'}
+[2.630965] (munna_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot\n'}
+[2.631119] (munna_robot) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/munna_autonomo.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot\n'}
+[2.631195] (munna_robot) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/munna_teleop.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot\n'}
+[2.631265] (munna_robot) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/__init__.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot\n'}
+[2.631352] (munna_robot) StdoutLine: {'line': b'copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/munna_mode_manager.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot\n'}
+[2.631506] (minisumo_robot) StdoutLine: {'line': b'Copying ../../../build/minisumo_robot/minisumo_robot.egg-info to /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot-1.0.0-py3.10.egg-info\n'}
+[2.631604] (munna_robot) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/munna_autonomo.py to munna_autonomo.cpython-310.pyc\n'}
+[2.631754] (minisumo_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.632377] (munna_robot) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/munna_teleop.py to munna_teleop.cpython-310.pyc\n'}
+[2.632833] (munna_robot) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/__init__.py to __init__.cpython-310.pyc\n'}
+[2.632941] (munna_robot) StdoutLine: {'line': b'byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/munna_mode_manager.py to munna_mode_manager.cpython-310.pyc\n'}
+[2.633231] (munna_robot) StdoutLine: {'line': b'running install_data\n'}
+[2.633332] (munna_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/munna_robot/share/ament_index\n'}
+[2.633495] (munna_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/munna_robot/share/ament_index/resource_index\n'}
+[2.633584] (munna_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/munna_robot/share/ament_index/resource_index/packages\n'}
+[2.633650] (munna_robot) StdoutLine: {'line': b'copying resource/munna_robot -> /home/fairytale/ros2_ws/install/munna_robot/share/ament_index/resource_index/packages\n'}
+[2.633717] (munna_robot) StdoutLine: {'line': b'copying package.xml -> /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot\n'}
+[2.633777] (munna_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/launch\n'}
+[2.633835] (munna_robot) StdoutLine: {'line': b'copying launch/munna.launch.py -> /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/launch\n'}
+[2.634221] (munna_robot) StdoutLine: {'line': b'creating /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/config\n'}
+[2.634332] (munna_robot) StdoutLine: {'line': b'copying config/munna_params.yaml -> /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/config\n'}
+[2.634609] (munna_robot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.636005] (munna_robot) StdoutLine: {'line': b'Copying ../../../build/munna_robot/munna_robot.egg-info to /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot-1.0.0-py3.10.egg-info\n'}
+[2.636359] (munna_robot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.637076] (munna_teleop) StdoutLine: {'line': b'Installing autonomous_node script to /home/fairytale/ros2_ws/install/munna_teleop/lib/munna_teleop\n'}
+[2.637212] (munna_teleop) StdoutLine: {'line': b'Installing mode_manager script to /home/fairytale/ros2_ws/install/munna_teleop/lib/munna_teleop\n'}
+[2.637300] (munna_teleop) StdoutLine: {'line': b'Installing teleop_node script to /home/fairytale/ros2_ws/install/munna_teleop/lib/munna_teleop\n'}
+[2.637422] (munna_teleop) StdoutLine: {'line': b"writing list of installed files to '/home/fairytale/ros2_ws/build/munna_teleop/install.log'\n"}
+[2.639845] (learning_tf2) CommandEnded: {'returncode': 0}
+[2.646256] (minisumo_robot) StdoutLine: {'line': b'Installing autonomous_node script to /home/fairytale/ros2_ws/install/minisumo_robot/bin\n'}
+[2.646441] (minisumo_robot) StdoutLine: {'line': b'Installing mode_manager script to /home/fairytale/ros2_ws/install/minisumo_robot/bin\n'}
+[2.646544] (minisumo_robot) StdoutLine: {'line': b'Installing motor_driver script to /home/fairytale/ros2_ws/install/minisumo_robot/bin\n'}
+[2.646610] (minisumo_robot) StdoutLine: {'line': b'Installing sensor_node script to /home/fairytale/ros2_ws/install/minisumo_robot/bin\n'}
+[2.646674] (minisumo_robot) StdoutLine: {'line': b'Installing teleop_node script to /home/fairytale/ros2_ws/install/minisumo_robot/bin\n'}
+[2.646842] (minisumo_robot) StdoutLine: {'line': b"writing list of installed files to '/home/fairytale/ros2_ws/build/minisumo_robot/install.log'\n"}
+[2.656194] (munna_robot) StdoutLine: {'line': b'Installing munna_autonomo script to /home/fairytale/ros2_ws/install/munna_robot/bin\n'}
+[2.656596] (munna_robot) StdoutLine: {'line': b'Installing munna_mode_manager script to /home/fairytale/ros2_ws/install/munna_robot/bin\n'}
+[2.656668] (munna_robot) StdoutLine: {'line': b'Installing munna_teleop script to /home/fairytale/ros2_ws/install/munna_robot/bin\n'}
+[2.656744] (munna_robot) StdoutLine: {'line': b"writing list of installed files to '/home/fairytale/ros2_ws/build/munna_robot/install.log'\n"}
+[2.670419] (learning_tf2) JobEnded: {'identifier': 'learning_tf2', 'rc': 0}
+[2.671762] (minisumo_robot) CommandEnded: {'returncode': 0}
+[2.677430] (minisumo_robot) JobEnded: {'identifier': 'minisumo_robot', 'rc': 0}
+[2.677673] (munna_teleop) CommandEnded: {'returncode': 0}
+[2.680557] (munna_teleop) JobEnded: {'identifier': 'munna_teleop', 'rc': 0}
+[2.681218] (munna_robot) CommandEnded: {'returncode': 0}
+[2.685684] (munna_robot) JobEnded: {'identifier': 'munna_robot', 'rc': 0}
+[2.706345] (teleop_twist_joy) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.708800] (-) TimerEvent: {}
+[2.775526] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.781119] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.801562] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.808990] (-) TimerEvent: {}
+[2.826244] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.866623] (teleop_twist_joy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.909139] (-) TimerEvent: {}
+[2.952135] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.009243] (-) TimerEvent: {}
+[3.022433] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.029967] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.109400] (-) TimerEvent: {}
+[3.159656] (teleop_twist_joy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.186768] (teleop_twist_joy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.209529] (-) TimerEvent: {}
+[3.214271] (teleop_twist_joy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.227962] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.309691] (-) TimerEvent: {}
+[3.345297] (teleop_twist_joy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.345434] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.406372] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[3.407433] (teleop_twist_joy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.409839] (-) TimerEvent: {}
+[3.486509] (teleop_twist_joy) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[3.510101] (-) TimerEvent: {}
+[3.539096] (teleop_twist_joy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.566916] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[3.610320] (-) TimerEvent: {}
+[3.622618] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[3.622911] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[3.679142] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[3.679423] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[3.710528] (-) TimerEvent: {}
+[3.752831] (teleop_twist_joy) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[3.759087] (teleop_twist_joy) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.810726] (-) TimerEvent: {}
+[3.838660] (teleop_twist_joy) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.857577] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.862881] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.862966] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.863006] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.863034] (teleop_twist_joy) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.877586] (teleop_twist_joy) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.898061] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.898218] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/fairytale/ros2_ws/src/teleop_twist_joy/include\n'}
+[3.898261] (teleop_twist_joy) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.899531] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.900728] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.901862] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.903219] (teleop_twist_joy) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.910101] (teleop_twist_joy) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.910785] (-) TimerEvent: {}
+[3.912485] (teleop_twist_joy) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at CMakeLists.txt:22 (add_library):\n'}
+[3.912622] (teleop_twist_joy) StderrLine: {'line': b'  Policy CMP0115 is not set: Source file extensions must be explicit.  Run\n'}
+[3.912691] (teleop_twist_joy) StderrLine: {'line': b'  "cmake --help-policy CMP0115" for policy details.  Use the cmake_policy\n'}
+[3.912753] (teleop_twist_joy) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[3.912813] (teleop_twist_joy) StderrLine: {'line': b'\n'}
+[3.912874] (teleop_twist_joy) StderrLine: {'line': b'  File:\n'}
+[3.912934] (teleop_twist_joy) StderrLine: {'line': b'\n'}
+[3.913001] (teleop_twist_joy) StderrLine: {'line': b'    /home/fairytale/ros2_ws/src/teleop_twist_joy/src/teleop_twist_joy.cpp\n'}
+[3.913064] (teleop_twist_joy) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[3.913122] (teleop_twist_joy) StderrLine: {'line': b'\x1b[0m\n'}
+[3.959652] (teleop_twist_joy) StdoutLine: {'line': b'-- Generating done\n'}
+[4.011209] (-) TimerEvent: {}
+[4.097891] (teleop_twist_joy) StdoutLine: {'line': b'-- Build files have been written to: /home/fairytale/ros2_ws/build/teleop_twist_joy\n'}
+[4.105691] (teleop_twist_joy) CommandEnded: {'returncode': 0}
+[4.106468] (teleop_twist_joy) JobProgress: {'identifier': 'teleop_twist_joy', 'progress': 'build'}
+[4.106484] (teleop_twist_joy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fairytale/ros2_ws/build/teleop_twist_joy', '--', '-j16', '-l16'], 'cwd': '/home/fairytale/ros2_ws/build/teleop_twist_joy', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'fairytale'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/fairytale'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1729'), ('SYSTEMD_EXEC_PID', '2342'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9181'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/fairytale/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fairytale'), ('JOURNAL_STREAM', '8:11815'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'fairytale'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/fairytale/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/fairytale-fx507zc4:@/tmp/.ICE-unix/2312,unix/fairytale-fx507zc4:/tmp/.ICE-unix/2312'), ('INVOCATION_ID', 'd8efc12550a24977a415cf331d19cc67'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JYPBP3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:35f4718d-acab-4c0c-aca4-900dea069d55'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/fairytale/ros2_ws/build/teleop_twist_joy'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble')]), 'shell': False}
+[4.111284] (-) TimerEvent: {}
+[4.146445] (teleop_twist_joy) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o\x1b[0m\n'}
+[4.147883] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at 155cfaa Release v3.0.1\n'}
+[4.211363] (-) TimerEvent: {}
+[4.220981] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[4.245243] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[4.267240] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[4.273784] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/fairytale/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[4.309838] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.311463] (-) TimerEvent: {}
+[4.314479] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.370156] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.377262] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.377439] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.377597] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.411672] (-) TimerEvent: {}
+[4.414572] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.418733] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.477885] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.483821] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.483978] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.484157] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.486173] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.511780] (-) TimerEvent: {}
+[4.539170] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.539335] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.600705] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.601267] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.607429] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.608632] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[4.608792] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[4.611893] (-) TimerEvent: {}
+[4.624848] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[4.654868] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[4.706144] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[4.712018] (-) TimerEvent: {}
+[4.725333] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[4.743475] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[4.763804] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[4.771598] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[4.774801] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[4.780605] (micro_ros_agent) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:153 (find_package):\n'}
+[4.780763] (micro_ros_agent) StderrLine: {'line': b'  Could not find a configuration file for package "fastcdr" that is\n'}
+[4.780827] (micro_ros_agent) StderrLine: {'line': b'  compatible with requested version "2".\n'}
+[4.780886] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[4.780943] (micro_ros_agent) StderrLine: {'line': b'  The following configuration files were considered but not accepted:\n'}
+[4.781008] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[4.781065] (micro_ros_agent) StderrLine: {'line': b'    /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.29\n'}
+[4.781128] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[4.781184] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[4.781238] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[4.781292] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.781356] (micro_ros_agent) StdoutLine: {'line': b'See also "/home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/CMakeOutput.log".\n'}
+[4.781819] (micro_ros_agent) StderrLine: {'line': b'gmake[5]: *** [CMakeFiles/uagent.dir/build.make:93: uagent-prefix/src/uagent-stamp/uagent-configure] Error 1\n'}
+[4.781991] (micro_ros_agent) StderrLine: {'line': b'gmake[4]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Error 2\n'}
+[4.782521] (micro_ros_agent) StderrLine: {'line': b'gmake[3]: *** [Makefile:91: all] Error 2\n'}
+[4.782727] (micro_ros_agent) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86: agent/src/xrceagent-stamp/xrceagent-build] Error 2\n'}
+[4.782942] (micro_ros_agent) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2\n'}
+[4.783246] (micro_ros_agent) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[4.784823] (micro_ros_agent) CommandEnded: {'returncode': 2}
+[4.788199] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 2}
+[4.812271] (-) TimerEvent: {}
+[4.912847] (-) TimerEvent: {}
+[5.013255] (-) TimerEvent: {}
+[5.113569] (-) TimerEvent: {}
+[5.213936] (-) TimerEvent: {}
+[5.314244] (-) TimerEvent: {}
+[5.414554] (-) TimerEvent: {}
+[5.514882] (-) TimerEvent: {}
+[5.615153] (-) TimerEvent: {}
+[5.715428] (-) TimerEvent: {}
+[5.815735] (-) TimerEvent: {}
+[5.916016] (-) TimerEvent: {}
+[6.016262] (-) TimerEvent: {}
+[6.116729] (-) TimerEvent: {}
+[6.217011] (-) TimerEvent: {}
+[6.317317] (-) TimerEvent: {}
+[6.417591] (-) TimerEvent: {}
+[6.517891] (-) TimerEvent: {}
+[6.618119] (-) TimerEvent: {}
+[6.718394] (-) TimerEvent: {}
+[6.818668] (-) TimerEvent: {}
+[6.918937] (-) TimerEvent: {}
+[7.019179] (-) TimerEvent: {}
+[7.119450] (-) TimerEvent: {}
+[7.219761] (-) TimerEvent: {}
+[7.320060] (-) TimerEvent: {}
+[7.420336] (-) TimerEvent: {}
+[7.520563] (-) TimerEvent: {}
+[7.620891] (-) TimerEvent: {}
+[7.721146] (-) TimerEvent: {}
+[7.821511] (-) TimerEvent: {}
+[7.921803] (-) TimerEvent: {}
+[8.022164] (-) TimerEvent: {}
+[8.122410] (-) TimerEvent: {}
+[8.222746] (-) TimerEvent: {}
+[8.323017] (-) TimerEvent: {}
+[8.423239] (-) TimerEvent: {}
+[8.523594] (-) TimerEvent: {}
+[8.623922] (-) TimerEvent: {}
+[8.724157] (-) TimerEvent: {}
+[8.824406] (-) TimerEvent: {}
+[8.924757] (-) TimerEvent: {}
+[9.025037] (-) TimerEvent: {}
+[9.125258] (-) TimerEvent: {}
+[9.225546] (-) TimerEvent: {}
+[9.325867] (-) TimerEvent: {}
+[9.426119] (-) TimerEvent: {}
+[9.526452] (-) TimerEvent: {}
+[9.626806] (-) TimerEvent: {}
+[9.727032] (-) TimerEvent: {}
+[9.827260] (-) TimerEvent: {}
+[9.927569] (-) TimerEvent: {}
+[10.027832] (-) TimerEvent: {}
+[10.128277] (-) TimerEvent: {}
+[10.228769] (-) TimerEvent: {}
+[10.329196] (-) TimerEvent: {}
+[10.429448] (-) TimerEvent: {}
+[10.529703] (-) TimerEvent: {}
+[10.630102] (-) TimerEvent: {}
+[10.683030] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libteleop_twist_joy.so\x1b[0m\n'}
+[10.730193] (-) TimerEvent: {}
+[10.830411] (-) TimerEvent: {}
+[10.930669] (-) TimerEvent: {}
+[11.017903] (teleop_twist_joy) StdoutLine: {'line': b'[ 50%] Built target teleop_twist_joy\n'}
+[11.030765] (-) TimerEvent: {}
+[11.035607] (teleop_twist_joy) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o\x1b[0m\n'}
+[11.130992] (-) TimerEvent: {}
+[11.231234] (-) TimerEvent: {}
+[11.331513] (-) TimerEvent: {}
+[11.431874] (-) TimerEvent: {}
+[11.532229] (-) TimerEvent: {}
+[11.632502] (-) TimerEvent: {}
+[11.732837] (-) TimerEvent: {}
+[11.833109] (-) TimerEvent: {}
+[11.933369] (-) TimerEvent: {}
+[12.033647] (-) TimerEvent: {}
+[12.133925] (-) TimerEvent: {}
+[12.234210] (-) TimerEvent: {}
+[12.334475] (-) TimerEvent: {}
+[12.434819] (-) TimerEvent: {}
+[12.535100] (-) TimerEvent: {}
+[12.635481] (-) TimerEvent: {}
+[12.647610] (teleop_twist_joy) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable teleop_node\x1b[0m\n'}
+[12.735827] (-) TimerEvent: {}
+[12.782404] (teleop_twist_joy) StdoutLine: {'line': b'[100%] Built target teleop_twist_joy_node\n'}
+[12.791747] (teleop_twist_joy) JobEnded: {'identifier': 'teleop_twist_joy', 'rc': 'SIGINT'}
+[12.802526] (-) EventReactorShutdown: {}

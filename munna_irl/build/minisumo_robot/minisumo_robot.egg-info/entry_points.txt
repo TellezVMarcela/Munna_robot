@@ -1,0 +1,7 @@
+[console_scripts]
+autonomous_node = minisumo_robot.autonomous_node:main
+mode_manager = minisumo_robot.mode_manager:main
+motor_driver = minisumo_robot.motor_driver:main
+sensor_node = minisumo_robot.sensor_node:main
+teleop_node = minisumo_robot.teleop_node:main
+

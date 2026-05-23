@@ -1,0 +1,55 @@
+running egg_info
+creating ../../../build/minisumo_robot/minisumo_robot.egg-info
+writing ../../../build/minisumo_robot/minisumo_robot.egg-info/PKG-INFO
+writing dependency_links to ../../../build/minisumo_robot/minisumo_robot.egg-info/dependency_links.txt
+writing entry points to ../../../build/minisumo_robot/minisumo_robot.egg-info/entry_points.txt
+writing requirements to ../../../build/minisumo_robot/minisumo_robot.egg-info/requires.txt
+writing top-level names to ../../../build/minisumo_robot/minisumo_robot.egg-info/top_level.txt
+writing manifest file '../../../build/minisumo_robot/minisumo_robot.egg-info/SOURCES.txt'
+reading manifest file '../../../build/minisumo_robot/minisumo_robot.egg-info/SOURCES.txt'
+writing manifest file '../../../build/minisumo_robot/minisumo_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fairytale/ros2_ws/build/minisumo_robot/build
+creating /home/fairytale/ros2_ws/build/minisumo_robot/build/lib
+creating /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot
+copying minisumo_robot/autonomous_node.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot
+copying minisumo_robot/motor_driver.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot
+copying minisumo_robot/__init__.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot
+copying minisumo_robot/mode_manager.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot
+copying minisumo_robot/sensor_node.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot
+copying minisumo_robot/teleop_node.py -> /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot
+running install
+running install_lib
+creating /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot
+copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/autonomous_node.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot
+copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/motor_driver.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot
+copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/__init__.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot
+copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/mode_manager.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot
+copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/sensor_node.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot
+copying /home/fairytale/ros2_ws/build/minisumo_robot/build/lib/minisumo_robot/teleop_node.py -> /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot
+byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/autonomous_node.py to autonomous_node.cpython-310.pyc
+byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/motor_driver.py to motor_driver.cpython-310.pyc
+byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/mode_manager.py to mode_manager.cpython-310.pyc
+byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/sensor_node.py to sensor_node.cpython-310.pyc
+byte-compiling /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot/teleop_node.py to teleop_node.cpython-310.pyc
+running install_data
+creating /home/fairytale/ros2_ws/install/minisumo_robot/share/ament_index
+creating /home/fairytale/ros2_ws/install/minisumo_robot/share/ament_index/resource_index
+creating /home/fairytale/ros2_ws/install/minisumo_robot/share/ament_index/resource_index/packages
+copying resource/minisumo_robot -> /home/fairytale/ros2_ws/install/minisumo_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/fairytale/ros2_ws/install/minisumo_robot/share/minisumo_robot
+creating /home/fairytale/ros2_ws/install/minisumo_robot/share/minisumo_robot/launch
+copying launch/minisumo.launch.py -> /home/fairytale/ros2_ws/install/minisumo_robot/share/minisumo_robot/launch
+creating /home/fairytale/ros2_ws/install/minisumo_robot/share/minisumo_robot/config
+copying config/minisumo_params.yaml -> /home/fairytale/ros2_ws/install/minisumo_robot/share/minisumo_robot/config
+running install_egg_info
+Copying ../../../build/minisumo_robot/minisumo_robot.egg-info to /home/fairytale/ros2_ws/install/minisumo_robot/lib/python3.10/site-packages/minisumo_robot-1.0.0-py3.10.egg-info
+running install_scripts
+Installing autonomous_node script to /home/fairytale/ros2_ws/install/minisumo_robot/bin
+Installing mode_manager script to /home/fairytale/ros2_ws/install/minisumo_robot/bin
+Installing motor_driver script to /home/fairytale/ros2_ws/install/minisumo_robot/bin
+Installing sensor_node script to /home/fairytale/ros2_ws/install/minisumo_robot/bin
+Installing teleop_node script to /home/fairytale/ros2_ws/install/minisumo_robot/bin
+writing list of installed files to '/home/fairytale/ros2_ws/build/minisumo_robot/install.log'

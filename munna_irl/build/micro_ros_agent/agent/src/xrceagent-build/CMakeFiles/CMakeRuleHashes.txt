@@ -1,0 +1,10 @@
+# Hashes of file build rules.
+351510162464db19a401fb1a1ec90a70 CMakeFiles/uagent
+f5ceb0d3154522b3475af9ebfdcc2d16 CMakeFiles/uagent-complete
+b026262bbf3639e51caabb92ad27bf65 uagent-prefix/src/uagent-stamp/uagent-build
+7759331596be7e763e2ac255b33f1a41 uagent-prefix/src/uagent-stamp/uagent-configure
+719345b448210c1149ae0d50fbf7fb81 uagent-prefix/src/uagent-stamp/uagent-download
+e686040aa69996e2b309646b8843ecca uagent-prefix/src/uagent-stamp/uagent-install
+e8d698fc29e9e8bc419f27c9b8939dc5 uagent-prefix/src/uagent-stamp/uagent-mkdir
+34d3ca15cc84671cf479952312f2508a uagent-prefix/src/uagent-stamp/uagent-patch
+d4649b5513b7aee773c95b3cedd73333 uagent-prefix/src/uagent-stamp/uagent-update

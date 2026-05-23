@@ -1,0 +1,2 @@
+Invoking command in '/home/fairytale/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble /usr/bin/cmake --build /home/fairytale/ros2_ws/build/micro_ros_agent -- -j16 -l16
+Invoked command in '/home/fairytale/ros2_ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble /usr/bin/cmake --build /home/fairytale/ros2_ws/build/micro_ros_agent -- -j16 -l16

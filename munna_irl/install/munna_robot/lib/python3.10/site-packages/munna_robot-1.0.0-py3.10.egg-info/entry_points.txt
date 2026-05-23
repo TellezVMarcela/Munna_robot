@@ -1,0 +1,5 @@
+[console_scripts]
+munna_autonomo = munna_robot.munna_autonomo:main
+munna_mode_manager = munna_robot.munna_mode_manager:main
+munna_teleop = munna_robot.munna_teleop:main
+

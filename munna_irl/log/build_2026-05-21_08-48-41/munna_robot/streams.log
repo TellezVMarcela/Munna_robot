@@ -1,0 +1,49 @@
+[2.404s] Invoking command in '/home/fairytale/ros2_ws/src/Relleno/munna_robot': PYTHONPATH=/home/fairytale/ros2_ws/build/munna_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/munna_robot build --build-base /home/fairytale/ros2_ws/build/munna_robot/build install --record /home/fairytale/ros2_ws/build/munna_robot/install.log --single-version-externally-managed install_data
+[2.593s] running egg_info
+[2.593s] creating ../../../build/munna_robot/munna_robot.egg-info
+[2.593s] writing ../../../build/munna_robot/munna_robot.egg-info/PKG-INFO
+[2.593s] writing dependency_links to ../../../build/munna_robot/munna_robot.egg-info/dependency_links.txt
+[2.593s] writing entry points to ../../../build/munna_robot/munna_robot.egg-info/entry_points.txt
+[2.593s] writing requirements to ../../../build/munna_robot/munna_robot.egg-info/requires.txt
+[2.593s] writing top-level names to ../../../build/munna_robot/munna_robot.egg-info/top_level.txt
+[2.594s] writing manifest file '../../../build/munna_robot/munna_robot.egg-info/SOURCES.txt'
+[2.594s] reading manifest file '../../../build/munna_robot/munna_robot.egg-info/SOURCES.txt'
+[2.596s] writing manifest file '../../../build/munna_robot/munna_robot.egg-info/SOURCES.txt'
+[2.596s] running build
+[2.596s] running build_py
+[2.596s] creating /home/fairytale/ros2_ws/build/munna_robot/build
+[2.596s] creating /home/fairytale/ros2_ws/build/munna_robot/build/lib
+[2.596s] creating /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot
+[2.596s] copying munna_robot/munna_autonomo.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot
+[2.597s] copying munna_robot/munna_teleop.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot
+[2.602s] copying munna_robot/__init__.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot
+[2.602s] copying munna_robot/munna_mode_manager.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot
+[2.604s] running install
+[2.604s] running install_lib
+[2.605s] creating /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot
+[2.605s] copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/munna_autonomo.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot
+[2.605s] copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/munna_teleop.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot
+[2.605s] copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/__init__.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot
+[2.605s] copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/munna_mode_manager.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot
+[2.605s] byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/munna_autonomo.py to munna_autonomo.cpython-310.pyc
+[2.606s] byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/munna_teleop.py to munna_teleop.cpython-310.pyc
+[2.607s] byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/__init__.py to __init__.cpython-310.pyc
+[2.607s] byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/munna_mode_manager.py to munna_mode_manager.cpython-310.pyc
+[2.607s] running install_data
+[2.607s] creating /home/fairytale/ros2_ws/install/munna_robot/share/ament_index
+[2.607s] creating /home/fairytale/ros2_ws/install/munna_robot/share/ament_index/resource_index
+[2.607s] creating /home/fairytale/ros2_ws/install/munna_robot/share/ament_index/resource_index/packages
+[2.607s] copying resource/munna_robot -> /home/fairytale/ros2_ws/install/munna_robot/share/ament_index/resource_index/packages
+[2.607s] copying package.xml -> /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot
+[2.607s] creating /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/launch
+[2.608s] copying launch/munna.launch.py -> /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/launch
+[2.608s] creating /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/config
+[2.608s] copying config/munna_params.yaml -> /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/config
+[2.608s] running install_egg_info
+[2.610s] Copying ../../../build/munna_robot/munna_robot.egg-info to /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot-1.0.0-py3.10.egg-info
+[2.610s] running install_scripts
+[2.630s] Installing munna_autonomo script to /home/fairytale/ros2_ws/install/munna_robot/bin
+[2.630s] Installing munna_mode_manager script to /home/fairytale/ros2_ws/install/munna_robot/bin
+[2.630s] Installing munna_teleop script to /home/fairytale/ros2_ws/install/munna_robot/bin
+[2.630s] writing list of installed files to '/home/fairytale/ros2_ws/build/munna_robot/install.log'
+[2.655s] Invoked command in '/home/fairytale/ros2_ws/src/Relleno/munna_robot' returned '0': PYTHONPATH=/home/fairytale/ros2_ws/build/munna_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/munna_robot build --build-base /home/fairytale/ros2_ws/build/munna_robot/build install --record /home/fairytale/ros2_ws/build/munna_robot/install.log --single-version-externally-managed install_data

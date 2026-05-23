@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../build/learning_tf2/learning_tf2.egg-info
+writing ../../../build/learning_tf2/learning_tf2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/learning_tf2/learning_tf2.egg-info/dependency_links.txt
+writing entry points to ../../../build/learning_tf2/learning_tf2.egg-info/entry_points.txt
+writing requirements to ../../../build/learning_tf2/learning_tf2.egg-info/requires.txt
+writing top-level names to ../../../build/learning_tf2/learning_tf2.egg-info/top_level.txt
+writing manifest file '../../../build/learning_tf2/learning_tf2.egg-info/SOURCES.txt'
+reading manifest file '../../../build/learning_tf2/learning_tf2.egg-info/SOURCES.txt'
+writing manifest file '../../../build/learning_tf2/learning_tf2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fairytale/ros2_ws/build/learning_tf2/build
+creating /home/fairytale/ros2_ws/build/learning_tf2/build/lib
+creating /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2
+copying learning_tf2/turtle_tf2_listener.py -> /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2
+copying learning_tf2/__init__.py -> /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2
+copying learning_tf2/turtle_tf2_broadcaster.py -> /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2
+running install
+running install_lib
+creating /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2
+copying /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2/turtle_tf2_listener.py -> /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2
+copying /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2/__init__.py -> /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2
+copying /home/fairytale/ros2_ws/build/learning_tf2/build/lib/learning_tf2/turtle_tf2_broadcaster.py -> /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2
+byte-compiling /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2/turtle_tf2_listener.py to turtle_tf2_listener.cpython-310.pyc
+byte-compiling /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2/turtle_tf2_broadcaster.py to turtle_tf2_broadcaster.cpython-310.pyc
+running install_data
+creating /home/fairytale/ros2_ws/install/learning_tf2/share/ament_index
+creating /home/fairytale/ros2_ws/install/learning_tf2/share/ament_index/resource_index
+creating /home/fairytale/ros2_ws/install/learning_tf2/share/ament_index/resource_index/packages
+copying resource/learning_tf2 -> /home/fairytale/ros2_ws/install/learning_tf2/share/ament_index/resource_index/packages
+copying package.xml -> /home/fairytale/ros2_ws/install/learning_tf2/share/learning_tf2
+running install_egg_info
+Copying ../../../build/learning_tf2/learning_tf2.egg-info to /home/fairytale/ros2_ws/install/learning_tf2/lib/python3.10/site-packages/learning_tf2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_tf2_broadcaster script to /home/fairytale/ros2_ws/install/learning_tf2/lib/learning_tf2
+Installing turtle_tf2_listener script to /home/fairytale/ros2_ws/install/learning_tf2/lib/learning_tf2
+writing list of installed files to '/home/fairytale/ros2_ws/build/learning_tf2/install.log'

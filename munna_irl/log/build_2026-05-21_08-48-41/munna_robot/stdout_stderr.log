@@ -1,0 +1,47 @@
+running egg_info
+creating ../../../build/munna_robot/munna_robot.egg-info
+writing ../../../build/munna_robot/munna_robot.egg-info/PKG-INFO
+writing dependency_links to ../../../build/munna_robot/munna_robot.egg-info/dependency_links.txt
+writing entry points to ../../../build/munna_robot/munna_robot.egg-info/entry_points.txt
+writing requirements to ../../../build/munna_robot/munna_robot.egg-info/requires.txt
+writing top-level names to ../../../build/munna_robot/munna_robot.egg-info/top_level.txt
+writing manifest file '../../../build/munna_robot/munna_robot.egg-info/SOURCES.txt'
+reading manifest file '../../../build/munna_robot/munna_robot.egg-info/SOURCES.txt'
+writing manifest file '../../../build/munna_robot/munna_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fairytale/ros2_ws/build/munna_robot/build
+creating /home/fairytale/ros2_ws/build/munna_robot/build/lib
+creating /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot
+copying munna_robot/munna_autonomo.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot
+copying munna_robot/munna_teleop.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot
+copying munna_robot/__init__.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot
+copying munna_robot/munna_mode_manager.py -> /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot
+running install
+running install_lib
+creating /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot
+copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/munna_autonomo.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot
+copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/munna_teleop.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot
+copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/__init__.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot
+copying /home/fairytale/ros2_ws/build/munna_robot/build/lib/munna_robot/munna_mode_manager.py -> /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot
+byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/munna_autonomo.py to munna_autonomo.cpython-310.pyc
+byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/munna_teleop.py to munna_teleop.cpython-310.pyc
+byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot/munna_mode_manager.py to munna_mode_manager.cpython-310.pyc
+running install_data
+creating /home/fairytale/ros2_ws/install/munna_robot/share/ament_index
+creating /home/fairytale/ros2_ws/install/munna_robot/share/ament_index/resource_index
+creating /home/fairytale/ros2_ws/install/munna_robot/share/ament_index/resource_index/packages
+copying resource/munna_robot -> /home/fairytale/ros2_ws/install/munna_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot
+creating /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/launch
+copying launch/munna.launch.py -> /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/launch
+creating /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/config
+copying config/munna_params.yaml -> /home/fairytale/ros2_ws/install/munna_robot/share/munna_robot/config
+running install_egg_info
+Copying ../../../build/munna_robot/munna_robot.egg-info to /home/fairytale/ros2_ws/install/munna_robot/lib/python3.10/site-packages/munna_robot-1.0.0-py3.10.egg-info
+running install_scripts
+Installing munna_autonomo script to /home/fairytale/ros2_ws/install/munna_robot/bin
+Installing munna_mode_manager script to /home/fairytale/ros2_ws/install/munna_robot/bin
+Installing munna_teleop script to /home/fairytale/ros2_ws/install/munna_robot/bin
+writing list of installed files to '/home/fairytale/ros2_ws/build/munna_robot/install.log'

@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/home/fairytale/ros2_ws/build/micro_ros_agent/CMakeFiles/xrceagent
+/home/fairytale/ros2_ws/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/home/fairytale/ros2_ws/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule

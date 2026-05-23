@@ -1,0 +1,5 @@
+[console_scripts]
+autonomous_node = munna_teleop.autonomous_node:main
+mode_manager = munna_teleop.mode_manager:main
+teleop_node = munna_teleop.teleop_node:main
+

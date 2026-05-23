@@ -1,0 +1,27 @@
+[2.407s] Invoking command in '/home/fairytale/ros2_ws/src/munna_teleop': PYTHONPATH=/home/fairytale/ros2_ws/build/munna_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/munna_teleop build --build-base /home/fairytale/ros2_ws/build/munna_teleop/build install --record /home/fairytale/ros2_ws/build/munna_teleop/install.log --single-version-externally-managed install_data
+[2.574s] running egg_info
+[2.574s] writing ../../build/munna_teleop/munna_teleop.egg-info/PKG-INFO
+[2.574s] writing dependency_links to ../../build/munna_teleop/munna_teleop.egg-info/dependency_links.txt
+[2.575s] writing entry points to ../../build/munna_teleop/munna_teleop.egg-info/entry_points.txt
+[2.575s] writing requirements to ../../build/munna_teleop/munna_teleop.egg-info/requires.txt
+[2.575s] writing top-level names to ../../build/munna_teleop/munna_teleop.egg-info/top_level.txt
+[2.576s] reading manifest file '../../build/munna_teleop/munna_teleop.egg-info/SOURCES.txt'
+[2.583s] adding license file 'LICENSE'
+[2.584s] writing manifest file '../../build/munna_teleop/munna_teleop.egg-info/SOURCES.txt'
+[2.584s] running build
+[2.584s] running build_py
+[2.584s] copying munna_teleop/teleop_node.py -> /home/fairytale/ros2_ws/build/munna_teleop/build/lib/munna_teleop
+[2.584s] running install
+[2.584s] running install_lib
+[2.585s] copying /home/fairytale/ros2_ws/build/munna_teleop/build/lib/munna_teleop/teleop_node.py -> /home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages/munna_teleop
+[2.585s] byte-compiling /home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages/munna_teleop/teleop_node.py to teleop_node.cpython-310.pyc
+[2.586s] running install_data
+[2.586s] running install_egg_info
+[2.588s] removing '/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages/munna_teleop-0.1.0-py3.10.egg-info' (and everything under it)
+[2.588s] Copying ../../build/munna_teleop/munna_teleop.egg-info to /home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages/munna_teleop-0.1.0-py3.10.egg-info
+[2.594s] running install_scripts
+[2.608s] Installing autonomous_node script to /home/fairytale/ros2_ws/install/munna_teleop/lib/munna_teleop
+[2.608s] Installing mode_manager script to /home/fairytale/ros2_ws/install/munna_teleop/lib/munna_teleop
+[2.608s] Installing teleop_node script to /home/fairytale/ros2_ws/install/munna_teleop/lib/munna_teleop
+[2.608s] writing list of installed files to '/home/fairytale/ros2_ws/build/munna_teleop/install.log'
+[2.648s] Invoked command in '/home/fairytale/ros2_ws/src/munna_teleop' returned '0': PYTHONPATH=/home/fairytale/ros2_ws/build/munna_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fairytale/ros2_ws/install/munna_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/munna_teleop build --build-base /home/fairytale/ros2_ws/build/munna_teleop/build install --record /home/fairytale/ros2_ws/build/munna_teleop/install.log --single-version-externally-managed install_data

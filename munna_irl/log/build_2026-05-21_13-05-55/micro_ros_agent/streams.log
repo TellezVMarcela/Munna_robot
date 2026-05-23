@@ -1,0 +1,22 @@
+[0.186s] Invoking command in '/home/fairytale/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble /usr/bin/cmake --build /home/fairytale/ros2_ws/build/micro_ros_agent -- -j16 -l16
+[0.718s] [  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+[0.718s] [ 12%] [34m[1mNo patch step for 'xrceagent'[0m
+[0.718s] [ 18%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[0.718s] loading initial cache file /home/fairytale/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[0.719s] -- Setting build type to 'Release' as none was specified.
+[0.719s] -- Configuring incomplete, errors occurred!
+[0.719s] See also "/home/fairytale/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/CMakeOutput.log".
+[0.719s] [31mCMake Error at CMakeLists.txt:153 (find_package):
+[0.719s]   Could not find a configuration file for package "fastcdr" that is
+[0.719s]   compatible with requested version "2".
+[0.719s] 
+[0.719s]   The following configuration files were considered but not accepted:
+[0.719s] 
+[0.719s]     /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.29
+[0.719s] 
+[0.719s] 
+[0.719s] [0m
+[0.719s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:93: agent/src/xrceagent-stamp/xrceagent-configure] Error 1
+[0.719s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[0.719s] gmake: *** [Makefile:91: all] Error 2
+[0.728s] Invoked command in '/home/fairytale/ros2_ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=/home/fairytale/ros2_ws/install/munna_teleop:/opt/ros/humble /usr/bin/cmake --build /home/fairytale/ros2_ws/build/micro_ros_agent -- -j16 -l16
