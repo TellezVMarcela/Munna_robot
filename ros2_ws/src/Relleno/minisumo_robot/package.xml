@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>minisumo_robot</name>
+  <version>1.0.0</version>
+  <description>
+    Paquete ROS2 para robot minisumo con modo autónomo y teleoperado.
+    Incluye control de sensores IR, driver de motores por serial y
+    gestor de modos de operación.
+  </description>
+
+  <maintainer email="jorge_ern.gonzalez@uao.edu.co">Jorge González</maintainer>
+  <maintainer email="marcela.tellez@uao.edu.co">Marcela Téllez</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>joy</depend>
+  <depend>launch_ros</depend>
+
+  <exec_depend>python3-serial</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

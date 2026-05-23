@@ -1,0 +1,10 @@
+munna_simu/build/
+munna_simu/install/
+munna_simu/log/
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+ros2_ws/scr/micro-ROS-Agent/
+ros2_ws/scr/Relleno/
+ros2_ws/scr/teleop_twist_joy/
+

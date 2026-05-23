@@ -1,0 +1,378 @@
+<!-- URDF del robot Munna - Plataforma robótica móvil compacta (10 x 10 cm)
+     de tracción diferencial directa con tres sensores IR (frontal, izquierdo, derecho).
+     Originalmente exportado desde SolidWorks mediante sw_urdf_exporter.
+     Versión corregida: se eliminó joint duplicado base_to_sensor_der_joint,
+     se cerraron todas las etiquetas y se uniformizaron las coordenadas. -->
+<robot name="uurdf_munna">
+
+  <!-- ================== BASE / CHASIS ================== -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="-0.0013257 0.00022747 0.030148" rpy="0 0 0" />
+      <mass value="0.39015" />
+      <inertia
+        ixx="0.00058166" ixy="-7.9449E-07" ixz="2.773E-05"
+        iyy="0.0005342"  iyz="2.5494E-06"
+        izz="0.00076133" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/base_link.STL" />
+      </geometry>
+      <material name="chasis_petg">
+        <color rgba="0.49804 0.49804 0.49804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- ================== RUEDA IZQUIERDA ================== -->
+  <link name="rueda_izq">
+    <inertial>
+      <origin xyz="0 0 -0.011859" rpy="0 0 0" />
+      <mass value="0.012909" />
+      <inertia
+        ixx="1.4986E-06" ixy="0" ixz="0"
+        iyy="1.4986E-06" iyz="0"
+        izz="1.9254E-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/rueda_izq.STL" />
+      </geometry>
+      <material name="goma_negra">
+        <color rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/rueda_izq.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="base_to_rueda_izq_joint" type="continuous">
+    <origin xyz="-0.031 0.051 0.0125" rpy="-1.5708 0 0" />
+    <parent link="base_link" />
+    <child  link="rueda_izq" />
+    <axis xyz="0 0 -1" />
+    <limit effort="0.3" velocity="15" />
+  </joint>
+
+  <!-- ================== RUEDA DERECHA ================== -->
+  <link name="rueda_der">
+    <inertial>
+      <origin xyz="0 0 -0.011859" rpy="0 0 0" />
+      <mass value="0.012909" />
+      <inertia
+        ixx="1.4986E-06" ixy="0" ixz="0"
+        iyy="1.4986E-06" iyz="0"
+        izz="1.9254E-06" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/rueda_der.STL" />
+      </geometry>
+      <material name="goma_negra">
+        <color rgba="0.05 0.05 0.05 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/rueda_der.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="base_to_rueda_der_joint" type="continuous">
+    <origin xyz="-0.031 -0.051 0.0125" rpy="1.5708 0 0" />
+    <parent link="base_link" />
+    <child  link="rueda_der" />
+    <axis xyz="0 0 -1" />
+    <limit effort="0.3" velocity="15" />
+  </joint>
+
+  <!-- ================== SENSOR IR FRONTAL ================== -->
+  <link name="sensor_frontal">
+    <inertial>
+      <origin xyz="0.0039767 1.4234E-07 -6.996E-05" rpy="0 0 0" />
+      <mass value="0.0035955" />
+      <inertia
+        ixx="7.1219E-07" ixy="4.4581E-12" ixz="2.6512E-09"
+        iyy="1.5114E-07" iyz="1.2982E-09"
+        izz="6.6729E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/sensor_frontal.STL" />
+      </geometry>
+      <material name="sensor_pcb">
+        <color rgba="0 0.7 0.3 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/sensor_frontal.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="base_to_sensor_frontal_joint" type="fixed">
+    <origin xyz="0.0272 -2.5E-05 0.036275" rpy="0 0 0" />
+    <parent link="base_link" />
+    <child  link="sensor_frontal" />
+  </joint>
+
+  <!-- ================== SENSOR IR IZQUIERDO ================== -->
+  <link name="sensor_izq">
+    <inertial>
+      <origin xyz="0.0039767 6.996E-05 1.4234E-07" rpy="0 0 0" />
+      <mass value="0.0035955" />
+      <inertia
+        ixx="7.1219E-07" ixy="-2.6512E-09" ixz="4.4581E-12"
+        iyy="6.6729E-07" iyz="-1.2982E-09"
+        izz="1.5114E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/sensor_izq.STL" />
+      </geometry>
+      <material name="sensor_pcb_izq">
+        <color rgba="0 0.3 0.9 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/sensor_izq.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="base_to_sensor_izq_joint" type="fixed">
+    <origin xyz="0.021051 0.032221 0.048325" rpy="0 0 0.5236" />
+    <parent link="base_link" />
+    <child  link="sensor_izq" />
+  </joint>
+
+  <!-- ================== SENSOR IR DERECHO ================== -->
+  <link name="sensor_der">
+    <inertial>
+      <origin xyz="0.0039767 -6.996E-05 -1.4234E-07" rpy="0 0 0" />
+      <mass value="0.0035955" />
+      <inertia
+        ixx="7.1219E-07" ixy="2.6512E-09" ixz="-4.4581E-12"
+        iyy="6.6729E-07" iyz="-1.2982E-09"
+        izz="1.5114E-07" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/sensor_der.STL" />
+      </geometry>
+      <material name="sensor_pcb_der">
+        <color rgba="0.5 0 0.7 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://modelo_robot/meshes/sensor_der.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <joint name="base_to_sensor_der_joint" type="fixed">
+    <origin xyz="0.021051 -0.032221 0.048325" rpy="0 0 -0.5236" />
+    <parent link="base_link" />
+    <child  link="sensor_der" />
+  </joint>
+
+  <!-- ================================================================
+       FRICCIÓN DE LAS RUEDAS Y EL CHASIS PARA GAZEBO
+       Ruedas: alta fricción para no patinar
+       Chasis: muy baja, no debería tocar el suelo pero por seguridad
+       ================================================================ -->
+
+  <gazebo reference="rueda_izq">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="rueda_der">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <kp>1000000.0</kp>
+    <kd>100.0</kd>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="base_link">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <!-- ================================================================
+       PLUGIN DIFF DRIVE
+       Suscribe /cmd_vel y mueve rueda_izq y rueda_der
+       Publica /odom y la TF odom -> base_link
+       wheel_separation = 0.102 m (2 * 0.051)
+       wheel_diameter   = 0.030 m (radio 1.5 cm)
+       ================================================================ -->
+
+  <gazebo>
+    <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
+      <ros>
+        <namespace>/</namespace>
+        <remapping>cmd_vel:=cmd_vel</remapping>
+        <remapping>odom:=odom</remapping>
+      </ros>
+
+      <update_rate>30</update_rate>
+
+      <!-- Joints de las ruedas -->
+      <left_joint>base_to_rueda_izq_joint</left_joint>
+      <right_joint>base_to_rueda_der_joint</right_joint>
+
+      <!-- Geometría -->
+      <wheel_separation>0.102</wheel_separation>
+      <wheel_diameter>0.030</wheel_diameter>
+
+      <!-- Límites -->
+      <max_wheel_torque>1.0</max_wheel_torque>
+      <max_wheel_acceleration>5.0</max_wheel_acceleration>
+
+      <!-- Salidas -->
+      <publish_odom>true</publish_odom>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>true</publish_wheel_tf>
+
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+    </plugin>
+  </gazebo>
+
+  <!-- ================================================================
+       SENSORES ULTRASÓNICOS (3 sensores ray tipo HC-SR04)
+       Cada uno publica sensor_msgs/Range. Rango 5 cm – 4 m, FOV 15°.
+       El color del rayo coincide con el material visual del sensor.
+       ================================================================ -->
+
+  <!-- Sensor FRONTAL (rayo verde) -->
+  <gazebo reference="sensor_frontal">
+    <material>Gazebo/Green</material>
+    <sensor type="ray" name="sensor_frontal_ray">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>3</samples>
+            <resolution>1</resolution>
+            <min_angle>-0.3</min_angle>
+            <max_angle>0.3</max_angle>
+          </horizontal>
+          
+        </scan>
+        <range>
+          <min>0.05</min>
+          <max>1.0</max>
+          <resolution>0.01</resolution>
+        </range>
+      </ray>
+      <plugin name="sensor_frontal_plugin" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <remapping>~/out:=/sensors/front</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>sensor_frontal</frame_name>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <!-- Sensor IZQUIERDO (rayo azul) -->
+  <gazebo reference="sensor_izq">
+    <material>Gazebo/Blue</material>
+    <sensor type="ray" name="sensor_izq_ray">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>3</samples>
+            <resolution>1</resolution>
+            <min_angle>-0.3</min_angle>
+            <max_angle>0.3</max_angle>
+          </horizontal>
+    
+        </scan>
+        <range>
+          <min>0.05</min>
+          <max>1.0</max>
+          <resolution>0.01</resolution>
+        </range>
+      </ray>
+      <plugin name="sensor_izq_plugin" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <remapping>~/out:=/sensors/izq</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>sensor_izq</frame_name>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <!-- Sensor DERECHO (rayo morado) -->
+  <gazebo reference="sensor_der">
+    <material>Gazebo/Purple</material>
+    <sensor type="ray" name="sensor_der_ray">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>3</samples>
+            <resolution>1</resolution>
+            <min_angle>-0.3</min_angle>
+            <max_angle>0.3</max_angle>
+          </horizontal>
+    
+        </scan>
+        <range>
+          <min>0.05</min>
+          <max>1.0</max>
+          <resolution>0.01</resolution>
+        </range>
+      </ray>
+      <plugin name="sensor_der_plugin" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <remapping>~/out:=/sensors/der</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>sensor_der</frame_name>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+</robot>
+

@@ -1,0 +1,36 @@
+# Configuración del robot minisumo
+# Ajustar según las características físicas del hardware
+
+autonomous_controller:
+  ros__parameters:
+    attack_speed:   0.5    # m/s – velocidad de ataque
+    search_speed:   1.2    # rad/s – velocidad de búsqueda
+    reverse_speed:  0.35   # m/s – velocidad de retroceso
+    detect_dist:    0.30   # m – distancia de detección del oponente
+
+motor_driver:
+  ros__parameters:
+    serial_port:   '/dev/ttyUSB0'
+    baud_rate:     115200
+    wheel_base:    0.10    # m – distancia entre ruedas (medir en el robot)
+    max_pwm:       255
+    min_pwm:       60      # PWM mínimo para vencer la inercia
+    invert_left:   false   # cambiar a true si motor izquierdo gira al revés
+    invert_right:  false
+    cmd_timeout:   0.5     # s – tiempo sin comandos antes de detener motores
+
+sensor_node:
+  ros__parameters:
+    serial_port:   '/dev/ttyUSB0'
+    baud_rate:     115200
+    sim_mode:      false   # true para pruebas sin hardware
+
+teleop_node:
+  ros__parameters:
+    max_linear:   0.5    # m/s
+    max_angular:  2.0    # rad/s
+    turbo_mult:   1.8    # multiplicador turbo (botón LB del control)
+
+mode_manager:
+  ros__parameters:
+    default_mode: 'autonomous'  # autonomous | teleop

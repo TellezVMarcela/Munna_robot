@@ -1,0 +1,20 @@
+# Parámetros del robot Munna
+# Ajustar según comportamiento deseado
+
+munna_autonomo:
+  ros__parameters:
+    lado_m:      0.5    # m  – lado del cuadrado
+    vel_lin:     0.2    # m/s – velocidad lineal rutinas
+    vel_ang:     0.8    # rad/s – velocidad angular rutinas
+    t_auto:      10.0   # s  – tiempo entre cambios en modo AUTO
+    t_esquivar:  0.5    # s  – tiempo girando al esquivar obstáculo
+
+munna_teleop:
+  ros__parameters:
+    max_linear:  0.3    # m/s – velocidad máxima teleop
+    max_angular: 1.5    # rad/s – velocidad angular máxima teleop
+    turbo_mult:  1.8    # multiplicador turbo (L2)
+
+munna_mode_manager:
+  ros__parameters:
+    modo_inicial: 'autonomous'   # autonomous | teleop

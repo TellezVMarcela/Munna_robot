@@ -1,0 +1,3 @@
+source;share/munna_teleop/hook/pythonpath.ps1
+source;share/munna_teleop/hook/pythonpath.dsv
+source;share/munna_teleop/hook/pythonpath.sh
